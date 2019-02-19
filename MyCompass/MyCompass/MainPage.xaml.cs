@@ -13,8 +13,9 @@ namespace MyCompass
 		public MainPage()
 		{
 			InitializeComponent();
-           
-		}
+            BindingContext  = new MyCompassViewModel();
+
+        }
 
         protected override void OnAppearing()
         {

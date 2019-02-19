@@ -4,9 +4,9 @@
              xmlns:local="clr-namespace:MyCompass"
              x:Class="MyCompass.MainPage"
              BackgroundColor="LightGray" Padding="10">
-    <ContentPage.BindingContext>
+    <!--<ContentPage.BindingContext>
         <local:MyCompassViewModel/>
-    </ContentPage.BindingContext>
+    </ContentPage.BindingContext>-->
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
